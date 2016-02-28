@@ -1,4 +1,4 @@
-# git-hook-scripts - Useful collection of Git Hook scripts
+# git-hook-scripts - Collection of Git Hook scripts
 
 ## Installation
 
