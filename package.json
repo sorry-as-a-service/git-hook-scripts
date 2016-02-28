@@ -1,6 +1,6 @@
 {
   "name": "git-hook-scripts",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Sorry As A Service Ltd",
   "license": "MIT",
   "main": "./dist/git-hook-scripts.js",
