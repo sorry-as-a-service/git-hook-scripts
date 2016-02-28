@@ -32,16 +32,12 @@ Commands:
   npm-install-after-merge|install         Call npm intall if package.json or bower.json has been changed after Merge
 ```
 
-## Examples
-
 ## Contribute
 
 1. Implement a useful Git Hook script
 2. Move the script to `./src` and tests to `./test`
 3. Write the command to `./git-hook-scripts` (more info about [commander.js](https://github.com/tj/commander.js))
 4. Make a pull request
-
-With a **succesful contribution** you can **write your name in history**.
 
 ## License
 
