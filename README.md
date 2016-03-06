@@ -31,6 +31,11 @@ Commands:
   check-issue-nr-in-commit-msg|issue-nr   Check if commit message has a Issue number marked down
   npm-install-after-merge|install         Call npm intall if package.json or bower.json has been changed after Merge
 ```
+### Skip the hooks on commit
+append the --no-verify property to your commit command
+```
+git commit -m "your message" --no-verify
+```
 
 ## Contribute
 
