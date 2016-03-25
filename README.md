@@ -1,4 +1,6 @@
-# git-hook-scripts - Collection of Git Hook scripts
+# git-hook-scripts
+
+> Collection of Git hook scripts
 
 ## Installation
 
@@ -16,7 +18,6 @@ $ npm install --save-dev git-hook-scripts
 var scripts = require('git-hook-scripts');
 
 ...
-
 scripts.npmInstallAfterMerge();
 ```
 
