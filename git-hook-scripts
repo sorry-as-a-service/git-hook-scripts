@@ -9,13 +9,13 @@ program
 program
     .command('check-issue-nr-in-commit-msg')
     .alias('issue-nr')
-    .description('Check if commit message has a Issue number marked down')
+    .description('Checks if commit message has an Issue number marked down')
     .action(gitHooks.checkIssueNrInCommitMsg);
 
 program
     .command('npm-install-after-merge')
     .alias('install')
-    .description('Call npm intall if package.json or bower.json has been changed after Merge')
+    .description('Calls npm install if package.json or bower.json has been changed after merge')
     .action(gitHooks.npmInstallAfterMerge);
 
 program.parse(process.argv);

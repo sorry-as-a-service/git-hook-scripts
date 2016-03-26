@@ -1,9 +1,13 @@
 {
   "name": "git-hook-scripts",
-  "version": "1.0.0",
-  "author": "Sorry As A Service Ltd",
+  "version": "1.0.1",
+  "author": "Sorry as a Service Ltd",
   "license": "MIT",
   "main": "./dist/git-hook-scripts.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sorry-as-a-service/git-hook-scripts.git"
+  },
   "bin": {
     "git-hook-scripts": "./git-hook-scripts"
   },
